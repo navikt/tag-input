@@ -1,0 +1,53 @@
+{
+  "name": "@navikt/tag-input",
+  "version": "0.0.1",
+  "description": "react-component tag-input",
+  "repository": "github:navikt/textparser",
+  "homepage": "https://github.com/navikt/tag-input",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 src/*.less dist",
+    "test": "jest --config ./test/jest.config.js",
+    "test:coverage": "jest --coverage --config ./test/jest.config.js",
+    "commit": "git-cz"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "NAV",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/classnames": "^2.2.4",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "@types/react": ">=16.0.0",
+    "@types/react-dom": ">=16.0.0",
+    "classnames": "^2.2.6",
+    "copyfiles": "^2.2.0",
+    "git-cz": "^3.2.1",
+    "jest": "^24.8.0",
+    "jest-css-modules": "^2.1.0",
+    "lodash.throttle": "^4.1.1",
+    "nav-frontend-core": "^4.0.11",
+    "nav-frontend-js-utils": "^1.0.7",
+    "nav-frontend-knapper": "^1.0.29",
+    "nav-frontend-knapper-style": "^0.3.35",
+    "nav-frontend-paneler-style": "^0.3.17",
+    "nav-frontend-skjema": "^1.0.64",
+    "nav-frontend-skjema-style": "^1.0.40",
+    "nav-frontend-typografi-style": "^1.0.17",
+    "react": "^15.4.2 || ^16.0.0",
+    "react-dom": "^15.4.2 || ^16.0.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {
+    "classnames": "^2.2.6",
+    "nav-frontend-js-utils": "^1.0.7",
+    "nav-frontend-knapper": "^1.0.29",
+    "nav-frontend-skjema": "^1.0.64",
+    "nav-frontend-skjema-style": "^1.0.40",
+    "react": "^15.4.2 || ^16.0.0"
+  }
+}
