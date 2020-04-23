@@ -4,8 +4,8 @@
   "description": "react-component tag-input",
   "repository": "github:navikt/tag-input",
   "homepage": "https://github.com/navikt/tag-input",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/tag-input.js",
+  "typings": "dist/tag-input.d.ts",
   "scripts": {
     "build": "tsc && copyfiles -u 1 src/*.less dist",
     "test": "jest --config ./test/jest.config.js",
