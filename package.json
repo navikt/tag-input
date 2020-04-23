@@ -2,7 +2,7 @@
   "name": "@navikt/tag-input",
   "version": "0.0.1",
   "description": "react-component tag-input",
-  "repository": "github:navikt/textparser",
+  "repository": "github:navikt/tag-input",
   "homepage": "https://github.com/navikt/tag-input",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
