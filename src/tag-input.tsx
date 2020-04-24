@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { NavFrontendInputProps } from 'nav-frontend-skjema';
 import 'nav-frontend-skjema-style';
