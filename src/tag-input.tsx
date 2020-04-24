@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from 'react';
+import * as React from 'react';
 import classNames from 'classnames';
 import { NavFrontendInputProps } from 'nav-frontend-skjema';
 import 'nav-frontend-skjema-style';
@@ -125,12 +125,12 @@ class TagInput extends React.Component<Props, State> {
         }
     }
 
-    createChangeEvent(value: string): ChangeEvent<HTMLInputElement> {
+    createChangeEvent(value: string): React.ChangeEvent<HTMLInputElement> {
         const target = { ...(this.ref.current || {}), value };
         return ({
             target: target,
             currentTarget: target
-        } as unknown) as ChangeEvent<HTMLInputElement>;
+        } as unknown) as React.ChangeEvent<HTMLInputElement>;
     }
 
     remove(index: number) {
