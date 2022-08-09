@@ -7,7 +7,7 @@
   "main": "dist/tag-input.js",
   "typings": "dist/tag-input.d.ts",
   "scripts": {
-    "build": "tsc && copyfiles -u 1 src/*.less dist",
+    "build": "tsc && copyfiles -u 1 src/*.css dist",
     "test": "jest --config ./test/jest.config.js",
     "test:coverage": "jest --coverage --config ./test/jest.config.js",
     "commit": "git-cz"
