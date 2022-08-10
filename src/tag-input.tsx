@@ -4,7 +4,7 @@ import { InputProps } from 'nav-frontend-skjema';
 import 'nav-frontend-skjema-style';
 import { guid } from 'nav-frontend-js-utils';
 import { Knapp } from 'nav-frontend-knapper';
-import './tag-input.less';
+import './tag-input.css';
 
 type Omit<T, U> = Pick<T, Exclude<keyof T, U>>;
 

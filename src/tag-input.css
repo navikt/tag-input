@@ -1,0 +1,54 @@
+.tag-input__tags {
+  position: relative;
+  top: 1px;
+  margin-right: 0.25rem;
+}
+.tag-input__tag.knapp {
+  display: inline-block;
+  min-height: auto;
+  padding: 0 1.75rem 0 0.5rem;
+  border: none;
+  box-shadow: 0 0 0 0.125rem #0067c5;
+  margin-right: 0.5rem;
+}
+.tag-input__tag-remove {
+  display: initial !important;
+  position: relative;
+  right: -12px;
+  top: 2px;
+}
+.tag-input__tag-remove:before {
+  content: '';
+  position: absolute;
+  width: 0.15rem;
+  height: 80%;
+  top: 0;
+  transform: rotate(45deg);
+  background-color: currentColor;
+  border-radius: 0.075rem;
+}
+.tag-input__tag-remove:after {
+  content: '';
+  position: absolute;
+  width: 0.15rem;
+  height: 80%;
+  top: 0;
+  transform: rotate(-45deg);
+  background-color: currentColor;
+  border-radius: 0.075rem;
+}
+.tag-input__input,
+.tag-input__input:focus,
+.tag-input__input:hover {
+  flex: 1;
+  border: none;
+  outline: none;
+  display: inline;
+}
+.tag-input .skjemaelement__input {
+  display: flex;
+}
+.tag-input .skjemaelement__input--focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #254b6d;
+}
