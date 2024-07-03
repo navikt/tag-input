@@ -10,6 +10,9 @@ env:
 jobs:
   test-build-publish:
     name: Test and build
+    permissions:
+      contents: write
+      packages: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
